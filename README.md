@@ -29,4 +29,3 @@ Los botones de GitHub de las tarjetas enlazan a los repositorios:
 - Revisa qué datos de contacto quieres hacer públicos.
 - No subas contraseñas, claves, bases de datos con información real ni documentos privados.
 - Confirma que puedes compartir el código de cada proyecto grupal.
-
