@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio académico de Santiago Díaz Zapata, estudiante de Técnico en Programación de Software.">
+  <title>Santiago Díaz Zapata | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">SD</span><span>Santiago Díaz Zapata</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">PORTAFOLIO DE PROGRAMACIÓN</p>
+        <h1>Hola, soy <span>Santiago Díaz Zapata.</span></h1>
+        <h2>Estudiante de Técnico en Programación de Software</h2>
+        <p class="hero-text">Estoy desarrollando mis habilidades en programación, desarrollo web y diseño de interfaces.
+          Me interesa crear soluciones digitales útiles, claras y adaptables.</p>
+        <div class="actions">
+          <a class="btn primary" href="#proyectos">Ver mis proyectos</a>
+          <a class="btn secondary" href="#contacto">Contactarme</a>
+        </div>
+        <div class="tech-strip">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Python</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de código">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <pre><span class="code-purple">const</span> estudiante = {
+  nombre: <span class="code-green">"Santiago"</span>,
+  enfoque: <span class="code-green">"Desarrollo web"</span>,
+  aprendiendo: [
+    <span class="code-green">"Programación"</span>,
+    <span class="code-green">"Bases de datos"</span>
+  ]
+};</pre>
+          <div class="code-footer"><span class="status-dot"></span> Construyendo nuevas habilidades</div>
+        </div>
+        <div class="floating-tag tag-one">{"</>"}</div>
+        <div class="floating-tag tag-two">PYTHON</div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="section-heading">
+        <p class="eyebrow">PRESENTACIÓN</p>
+        <h2>Sobre mí</h2>
+      </div>
+      <p class="about-copy">Soy estudiante de grado 11 y del programa Técnico en Programación de Software del SENA. He
+        trabajado en ejercicios académicos de desarrollo web, programación en Python y bases de datos. También he
+        participado en Digital Brand, una propuesta de soluciones digitales para microempresas y emprendimientos. Busco
+        seguir aprendiendo y aplicar mis conocimientos en proyectos reales.</p>
+      <div class="mini-stats">
+        <div><strong>5+</strong><span>Tecnologías en aprendizaje</span></div>
+        <div><strong>11.º</strong><span>Grado académico</span></div>
+        <div><strong>SENA</strong><span>Formación técnica</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="section-heading">
+        <p class="eyebrow">LO QUE ESTOY APRENDIENDO</p>
+        <h2>Habilidades técnicas</h2>
+        <p>Conocimientos desarrollados durante mi formación y prácticas académicas.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Desarrollo web</h3>
+          <p>HTML y CSS para estructurar y diseñar páginas adaptables.</p>
+          <div class="pills"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Programación</h3>
+          <p>JavaScript y Python para practicar lógica, validaciones y estructuras de control.</p>
+          <div class="pills"><span>JavaScript</span><span>Python</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Backend y datos</h3>
+          <p>Prácticas con PHP, formularios y conexión con bases de datos en entornos locales.</p>
+          <div class="pills"><span>PHP</span><span>Bases de datos</span><span>XAMPP</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Herramientas</h3>
+          <p>Conocimientos académicos en herramientas de oficina y gestión de información.</p>
+          <div class="pills"><span>Excel</span><span>Access</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="section-heading">
+        <p class="eyebrow">TRABAJOS DESTACADOS</p>
+        <h2>Mis proyectos</h2>
+        <p>Proyectos y prácticas académicas. Las descripciones reflejan el trabajo realizado durante mi formación.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top project-blue"><span class="project-number">01</span><span
+              class="project-type">Proyecto SENA</span>
+            <div class="project-graphic">DB<span>✦</span></div>
+          </div>
+          <div class="project-body">
+            <h3>Digital Brand</h3>
+            <p class="project-subtitle">Propuesta de soluciones digitales</p>
+            <p>Proyecto enfocado en ayudar a microempresas y emprendimientos a mejorar su presencia digital mediante
+              páginas web, catálogos y propuestas de identidad visual.</p>
+            <div class="pills"><span>HTML</span><span>CSS</span><span>Diseño web</span></div>
+            <details>
+              <summary>Mi aporte y aprendizaje</summary>
+              <p>Participación en la definición de servicios, organización de contenidos y propuesta de páginas web
+                adaptables. Aprendizaje sobre necesidades de clientes y presentación de soluciones digitales.</p>
+            </details><a class="text-link" href="https://github.com/santidiazz2010-boop/digital-Brand" target="_blank" rel="noopener noreferrer">Ver en
+              GitHub ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-top project-purple"><span class="project-number">02</span><span
+              class="project-type">Práctica académica</span>
+            <div class="project-graphic">&lt;form&gt;</div>
+          </div>
+          <div class="project-body">
+            <h3>BMX</h3>
+            <p class="project-subtitle">Página web para BMX</p>
+            <p>Proyecto web desarrollado con HTML. Revisa el repositorio para ver la estructura de la página, sus
+              estilos y los recursos incluidos.</p>
+            <div class="pills"><span>HTML</span><span>CSS</span><span>Diseño web</span></div>
+            <details>
+              <summary>Mi aporte y aprendizaje</summary>
+              <p>Práctica de organización del contenido y construcción de una interfaz web. Completa esta descripción
+                con las secciones y funcionalidades específicas que desarrollaste.</p>
+            </details><a class="text-link" href="https://github.com/santidiazz2010-boop/bmx" target="_blank" rel="noopener noreferrer">Ver en
+              GitHub ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-top project-green"><span class="project-number">03</span><span
+              class="project-type">Ejercicios de programación</span>
+            <div class="project-graphic">Py</div>
+          </div>
+          <div class="project-body">
+            <h3>Flores Amarillas</h3>
+            <p class="project-subtitle">Diseño de una página web</p>
+            <p>Proyecto web publicado en un repositorio con archivos CSS. Consulta el código para revisar la estructura
+              y los estilos implementados.</p>
+            <div class="pills"><span>CSS</span><span>Diseño web</span></div>
+            <details>
+              <summary>Mi aporte y aprendizaje</summary>
+              <p>Proyecto para practicar la presentación visual de una página web y la organización de estilos. Completa
+                esta descripción con las funciones específicas que desarrollaste.</p>
+            </details><a class="text-link" href="https://github.com/santidiazz2010-boop/Flores-Amarillas" target="_blank" rel="noopener noreferrer">Ver en
+              GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="note"><strong>Importante:</strong> los enlaces de GitHub son enlaces generales provisionales. Cuando
+        subas cada proyecto a tu cuenta, reemplázalos por las URL exactas de tus repositorios.</p>
+    </section>
+
+    <section class="section education" id="formacion">
+      <div class="section-heading">
+        <p class="eyebrow">MI RECORRIDO</p>
+        <h2>Formación y cursos</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-dot"></span>
+          <div>
+            <h3>Técnico en Programación de Software</h3>
+            <p class="muted">Servicio Nacional de Aprendizaje (SENA) · En curso</p>
+            <p>Formación en programación, desarrollo web y conceptos de bases de datos.</p>
+          </div>
+        </div>
+        <div class="timeline-item"><span class="timeline-dot"></span>
+          <div>
+            <h3>Educación media — Grado 11</h3>
+            <p class="muted">I.E. Presbítero Bernardo Montoya Giraldo · En curso</p>
+            <p>Copacabana, Antioquia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="course-list">
+        <span>Uso de Excel y Access para el desarrollo de aplicaciones administrativas empresariales</span>
+        <span>Variables y estructuras de control en Python</span>
+        <span>English Does Work — Level 5</span>
+        <span>Aplicación de la Inteligencia Artificial en la Integración de Datos</span>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div>
+        <p class="eyebrow">HABLEMOS</p>
+        <h2>¿Conectamos?</h2>
+        <p>Estoy interesado en oportunidades formativas y proyectos que me permitan seguir aprendiendo y desarrollar mis
+          habilidades.</p>
+      </div>
+      <div class="contact-actions"><a class="btn primary" href="mailto:santidiazz2010@gmail.com">Enviar correo</a><a
+          class="btn secondary" href="https://github.com/santidiazz2010-boop" target="_blank" rel="noopener noreferrer">Mi GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Santiago Díaz Zapata</span><span>Portafolio académico · Técnico en
+      Programación de Software</span></footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
